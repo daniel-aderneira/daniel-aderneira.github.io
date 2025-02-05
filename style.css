@@ -1,1 +1,24 @@
+body {
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(235, 121, 178);
+}
 
+h1 {
+    font-size: 50px;
+}
+
+p {
+    position: relative;
+    font-size: 20px;
+}
+
+img {
+    margin-top: 20px;
+    position: relative;
+    z-index: 10;
+}
