@@ -1,3 +1,3 @@
 document
-  .querySelectorAll('.year')
-  .forEach(i => (i.textContent = new Date().getFullYear()));
+  .querySelectorAll(".year")
+  .forEach((i) => (i.textContent = new Date().getFullYear()));
