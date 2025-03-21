@@ -12,7 +12,7 @@ html {
 body {
   background-color: #000929;
   color: #fff;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .nav {
@@ -154,6 +154,12 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+.copyright {
+  color: #888;
+  font-style: italic;
+}
+
 @media (max-width: 56.25em) {
   html {
     font-size: 50%;
@@ -180,5 +186,8 @@ footer {
   }
   .description {
     font-size: 1.4rem;
+  }
+  .copyright {
+    font-size: 1.1rem;
   }
 }
