@@ -86,7 +86,7 @@ li {
   margin-bottom: 0.5rem;
 }
 .job {
-  font-family: 'Kanit';
+  font-family: 'Kanit', 'Rubik', sans-serif;
   font-size: 10rem;
   line-height: 0.8;
   letter-spacing: -0.2rem;
