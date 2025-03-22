@@ -76,6 +76,7 @@ li {
 .header-titles {
   margin-top: 14.5rem;
   margin-bottom: 11.5rem;
+  padding: 0 3rem;
 }
 
 .title {
@@ -98,10 +99,7 @@ li {
 .section {
   margin: 0 auto;
   margin-bottom: 12rem;
-}
-
-.section-portfolio {
-  width: 80vw;
+  width: 70vw;
 }
 
 .title-showreel,
@@ -146,7 +144,7 @@ li {
 
 .contacts-container {
   display: flex;
-  padding: 0 10%;
+  padding: 0 15%;
 }
 
 .icons {
@@ -156,7 +154,7 @@ li {
   gap: 5rem;
 }
 .icon {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 /* FOOTER */
@@ -189,7 +187,8 @@ footer {
     margin-bottom: 10rem;
   }
 
-  .section-portfolio {
+  .section-portfolio,
+  .section-showreel {
     width: 100vw;
   }
   .title-project {
@@ -203,6 +202,9 @@ footer {
   .contacts-container {
     display: block;
     padding: 0 5rem;
+  }
+  .icon {
+    font-size: 5rem;
   }
 
   .copyright {
