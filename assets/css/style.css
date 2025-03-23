@@ -39,6 +39,16 @@ body {
   color: var(--link-hover);
 }
 
+.video {
+  margin-bottom: 0.5rem;
+}
+
+.section {
+  margin: 0 auto;
+  margin-bottom: 12rem;
+  width: 70vw;
+}
+
 /* NAVEGATION */
 
 .nav {
@@ -96,12 +106,6 @@ li {
 
 /* MAIN */
 
-.section {
-  margin: 0 auto;
-  margin-bottom: 12rem;
-  width: 70vw;
-}
-
 .title-showreel,
 .title-portfolio,
 .title-contacts {
@@ -126,10 +130,6 @@ li {
   text-transform: uppercase;
   font-weight: 200;
   letter-spacing: 0.4rem;
-}
-
-.video {
-  margin-bottom: 0.5rem;
 }
 
 .description {
@@ -172,6 +172,8 @@ footer {
   color: var(--text-faded-grey);
   font-style: italic;
 }
+
+/* MEDIA 900px */
 
 @media (max-width: 56.25em) {
   html {
