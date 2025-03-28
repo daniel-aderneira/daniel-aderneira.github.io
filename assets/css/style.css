@@ -159,6 +159,10 @@ li {
   transition: all 0.3s;
 }
 
+.icon-fix {
+  width: 36px;
+}
+
 .icon:hover {
   scale: 1.2;
 }
