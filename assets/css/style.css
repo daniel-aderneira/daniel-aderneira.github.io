@@ -25,6 +25,11 @@ body {
   text-align: center;
 }
 
+body::selection {
+  background: var(--link-hover);
+  color: var(--bg-color);
+}
+
 .link:link,
 .link:visited {
   text-decoration: none;
@@ -155,16 +160,18 @@ li {
 }
 .icon {
   width: 40px;
-  filter: invert();
+  fill: var(--text-color);
   transition: all 0.3s;
-}
-
-.icon-fix {
-  width: 36px;
 }
 
 .icon:hover {
   scale: 1.2;
+  /* fill: var(--link-hover); */
+}
+
+.icon:visited,
+.icon:active {
+  scale: 1;
 }
 
 /* FOOTER */
