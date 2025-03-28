@@ -154,7 +154,13 @@ li {
   gap: 5rem;
 }
 .icon {
-  font-size: 4rem;
+  width: 40px;
+  filter: invert();
+  transition: all 0.3s;
+}
+
+.icon:hover {
+  scale: 1.2;
 }
 
 /* FOOTER */
@@ -204,9 +210,6 @@ footer {
   .contacts-container {
     display: block;
     padding: 0 5rem;
-  }
-  .icon {
-    font-size: 5rem;
   }
 
   .copyright {
