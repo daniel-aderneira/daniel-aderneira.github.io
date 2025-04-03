@@ -166,7 +166,6 @@ li {
 
 .icon:hover {
   scale: 1.2;
-  /* fill: var(--link-hover); */
 }
 
 .icon:visited,
