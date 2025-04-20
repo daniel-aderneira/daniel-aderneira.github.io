@@ -160,6 +160,7 @@ li {
 }
 .icon {
   width: 40px;
+  height: 40px;
   fill: var(--text-color);
   transition: all 0.3s;
 }
